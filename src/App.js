@@ -1,12 +1,12 @@
 import React from "react";
-import Home from "./pages/main/Home";
+import Joker from "./Joker";
 
-function App() {
-  return (
-    <div className="App">
-      <Home />
-    </div>
-  );
+function App(){
+    return(
+        <div>
+            {Joker}
+        </div>
+    )
 }
 
-export default App;
+export default App
