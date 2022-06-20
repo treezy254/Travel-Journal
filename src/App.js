@@ -1,25 +1,24 @@
 import React from 'react'
-import Navbar from "./component/navbar/Navbar"
-import Hero from "./component/hero/Hero"
-import Card from "./component/card/Card"
-import data from "./data"
+import Navbar from './components/navbar/Navbar'
+import Slide from './components/slide/Slide'
+import data from './data'
 
 const App = () => {
-  const Duke = data.map(item => {
-    return(
-      <Card
-        key={item.id}
-        item ={item}
+  const Place = data.map(item => {
+    return (
+      <Slide 
+        id = {item.id}
+        {...item}
       />
     )
   })
+
   return (
     <div>
-        <Navbar />
-        <Hero />
-        <section className="cards-list">
-          {Duke}
-        </section>
+      <Navbar />
+      <section>
+        {Place}  
+      </section> 
     </div>
   )
 }

@@ -1,11 +1,10 @@
 import React from 'react'
 import "./navbar.scss"
-// import Logo from "./public/images/airbnb-logo.png"
 
 const Navbar = () => {
   return (
     <div className='nav'>
-      <img src="" alt="" className='jip'/>
+      <i class="fa-solid fa-earth-africa" className='fa--nav'></i><h2 className='head'>My travel Journal.</h2>
     </div>
   )
 }

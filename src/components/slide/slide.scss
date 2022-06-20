@@ -1,0 +1,103 @@
+.place{
+    display: block;
+    justify-content: center;
+    align-content: center;
+    .place--img{
+        position: relative;
+        width: 125px;
+        height: 168px;
+        left: 40px;
+        top: 150px; 
+        // background: url(.png);
+        border-radius: 5px;
+    }
+
+    .place--cty{
+        position: relative;
+        width: 40px;
+        height: 10px;
+        left: 50px;
+        // top: 119px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10.24px;
+        line-height: 12px;
+        letter-spacing: 0.17em;
+
+        color: #2B283A;
+    }
+
+    .place--link{
+        position: relative;
+        width: 106px;
+        height: 13px;
+        padding-left: 60px;
+        // top: 119px;
+       
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10.24px;
+        line-height: 12px;
+        /* identical to box height */
+
+        text-decoration-line: underline;
+
+        color: #918E9B;
+    }
+
+    .place--title{
+        position: relative;
+        width: 326px;
+        height: 40px;
+        left: 184px;
+        // top: 136px;
+        color:red;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px;
+
+        color: #2B283A;
+
+    }
+
+    .place--prd{
+        position: relative;
+        width: 319px;
+        height: 11px;
+        left: 184px;
+        // top: 183px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10.24px;
+        line-height: 12px;
+
+        color: #2B283A;
+    }
+
+    .place--desc{
+        position: relative;
+        width: 326px;
+        height: 45px;
+        left: 184px;
+        // top: 203px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10.24px;
+        line-height: 150%;
+        /* or 15px */
+        
+        
+        color: #2B283A;
+    }
+}
+
+
