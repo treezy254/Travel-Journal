@@ -1,12 +1,27 @@
-import React from "react";
-import Joker from "./Joker";
+import React from 'react'
+import Navbar from "./component/navbar/Navbar"
+import Hero from "./component/hero/Hero"
+import Card from "./component/card/Card"
+import data from "./data"
 
-function App(){
+const App = () => {
+  const Duke = data.map(item => {
     return(
-        <div>
-            {Joker}
-        </div>
+      <Card
+        key={item.id}
+        item ={item}
+      />
     )
+  })
+  return (
+    <div>
+        <Navbar />
+        <Hero />
+        <section className="cards-list">
+          {Duke}
+        </section>
+    </div>
+  )
 }
 
 export default App
